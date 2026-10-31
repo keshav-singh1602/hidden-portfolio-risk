@@ -1,0 +1,18 @@
+IPP Hidden Portfolio Risk - preliminary analysis notes
+
+Reporting date: 30 September 2026, parsed from user-provided RupeeVest exports.
+Analysis script: python_code/02_portfolio_concentration_analysis.py
+
+Outputs:
+- holding_concentration_summary.csv: equity record counts, top-five and top-ten sums.
+- sector_exposure_provisional.csv: sector totals based on the working, not-yet-verified map. DO NOT use for final conclusions yet.
+- largest_holding_scenarios.csv: hypothetical direct impacts for 10% and 20% falls in each scheme's largest equity holding.
+- top_five_concentration.png: chart of top-five concentration sums.
+
+Important interpretation notes:
+1. Figures are preliminary calculations from the supplied RupeeVest exports, not independently verified AMC disclosures.
+2. Top-five and top-ten values are sums of reported equity holding weights as percentages of scheme NAV. They are not normalised to equity-only weight.
+3. The five schemes have different investment mandates, including a hybrid fund and an index fund; comparisons require this caveat.
+4. Sector mappings are provisional. Do not report sector rankings or diversification-gap conclusions as final until each company is verified against official company-level classification data.
+5. No missing values were imputed and no portfolio weights were automatically normalised.
+6. Scenario calculations are simple sensitivity estimates, not forecasts or investment advice.

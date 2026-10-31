@@ -1,0 +1,20 @@
+PRELIMINARY FINDINGS — NOT FINAL RECOMMENDATIONS
+
+Dataset: supplied RupeeVest exports, September 2026; values are reported % of scheme NAV. Official AMC cross-check and complete sector mapping remain pending.
+
+Holding-count / top-five comparison:
+- Bandhan Small Cap: 261 equity records; top-five weights 9.89%; count rank 1, concentration rank 1, gap 0.
+- HDFC Balanced Advantage: 169 equity records; top-five weights 19.35%; count rank 2, concentration rank 2, gap 0.
+- ICICI Prudential Large Cap: 83 equity records; top-five weights 31.17%; count rank 3, concentration rank 4, gap +1.
+- Parag Parikh Flexi Cap: 60 equity records; top-five weights 29.47%; count rank 4, concentration rank 3, gap -1.
+- UTI Nifty 50 Index: 50 equity records; top-five weights 36.34%; count rank 5, concentration rank 5, gap 0.
+
+Interpretation:
+Within this five-scheme sample, count and top-five concentration rankings mostly align. ICICI Prudential Large Cap ranks one place worse on top-five concentration than on holding count; Parag Parikh Flexi Cap ranks one place better. The Diversification Gap is a relative rank indicator, not a universal risk score.
+
+Limits:
+1. Fund categories and mandates differ; HDFC Balanced Advantage is hybrid and UTI Nifty 50 is an index fund.
+2. The ICICI reported total is 102.00% because the miscellaneous section includes an Infosys futures record weighted 1.96%. Excluding that record gives 100.04%, but it must not be removed without reconciling the official AMC disclosure and derivative accounting.
+3. Sector exposures and sector stress tests are provisional until issuer-level mappings are verified.
+4. A sector/holding decline scenario estimates direct arithmetic impact only; it does not forecast real fund returns or model offsets, hedges, taxes, costs, correlations or market reactions.
+5. Do not recommend buying or selling any scheme based on this descriptive comparison.

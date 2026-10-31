@@ -1,0 +1,63 @@
+IPP HIDDEN PORTFOLIO RISK
+Preliminary Business Findings and Recommendations
+Working version based on supplied September 2026 RupeeVest exports
+
+IMPORTANT STATUS
+This document treats the group's decision to proceed with the current sector mapping as permission to use it as a working assumption. It does NOT convert provisional name-based assignments into officially verified NSE classifications. Sector findings and sector stress tests must be described as provisional in the report and presentation. Portfolio files should still be cross-checked against AMC disclosures before final submission.
+
+1. Project question
+Does a higher number of securities necessarily indicate a more diversified portfolio?
+
+2. Sample and method
+The working sample contains Parag Parikh Flexi Cap Fund, Bandhan Small Cap Fund, ICICI Prudential Large Cap Fund, HDFC Balanced Advantage Fund, and UTI Nifty 50 Index Fund. The analysis uses September 2026 reported portfolio weights. The Python program calculates equity holding counts, top-five and top-ten equity concentration as a percentage of scheme NAV, ranks the funds on holding count and top-five concentration, and applies hypothetical direct-decline scenarios. It does not forecast returns or make investment recommendations.
+
+3. Holding concentration results
+- Bandhan Small Cap Fund: 261 equity records; top five = 9.89% of scheme NAV; top ten = 17.35%; largest reported equity holding: Sobha Limited (2.30%).
+- HDFC Balanced Advantage Fund: 169 equity records; top five = 19.35% of scheme NAV; top ten = 29.97%; largest reported equity holding: ICICI Bank Ltd. (5.06%).
+- Parag Parikh Flexi Cap Fund: 60 equity records; top five = 29.47% of scheme NAV; top ten = 51.01%; largest reported equity holding: HDFC Bank Limited (7.75%).
+- ICICI Prudential Large Cap Fund: 83 equity records; top five = 31.17% of scheme NAV; top ten = 45.68%; largest reported equity holding: ICICI Bank Ltd. (8.92%).
+- UTI Nifty 50 Index Fund: 50 equity records; top five = 36.34% of scheme NAV; top ten = 52.31%; largest reported equity holding: EQ - HDFC BANK LIMITED (10.38%).
+
+4. Diversification Gap interpretation
+The project's Diversification Gap is defined as:
+    Top-five concentration rank (lowest concentration = rank 1) minus holding-count rank (most holdings = rank 1).
+A positive value means the scheme's concentration rank is worse than its holding-count rank within this five-scheme sample. A negative value means its concentration rank is better. This is a relative comparison, not a universal risk score.
+
+- Bandhan Small Cap Fund: holding-count rank 1, concentration rank 1, gap 0 (Holding-count and concentration ranks align).
+- HDFC Balanced Advantage Fund: holding-count rank 2, concentration rank 2, gap 0 (Holding-count and concentration ranks align).
+- ICICI Prudential Large Cap Fund: holding-count rank 3, concentration rank 4, gap 1 (Concentration rank worse than holding-count rank).
+- Parag Parikh Flexi Cap Fund: holding-count rank 4, concentration rank 3, gap -1 (Concentration rank better than holding-count rank).
+- UTI Nifty 50 Index Fund: holding-count rank 5, concentration rank 5, gap 0 (Holding-count and concentration ranks align).
+
+Interpretation: The ranks mostly align in this sample. ICICI Prudential Large Cap ranks one place worse on top-five concentration than on holding count (gap +1). Parag Parikh Flexi Cap ranks one place better (gap -1). The results support the point that number of holdings alone does not fully describe allocation concentration; the comparison should also consider portfolio mandate and asset class.
+
+5. Portfolio weight validation
+- Bandhan Small Cap Fund: sum of reported rows = 100.01% (difference from 100% = +0.01 percentage points). Within ±0.10 percentage points; still cross-check source
+- HDFC Balanced Advantage Fund: sum of reported rows = 100.07% (difference from 100% = +0.07 percentage points). Within ±0.10 percentage points; still cross-check source
+- ICICI Prudential Large Cap Fund: sum of reported rows = 102.00% (difference from 100% = +2.00 percentage points). REVIEW: outside ±0.10 percentage points; do not normalise
+- Parag Parikh Flexi Cap Fund: sum of reported rows = 100.02% (difference from 100% = +0.02 percentage points). Within ±0.10 percentage points; still cross-check source
+- UTI Nifty 50 Index Fund: sum of reported rows = 100.03% (difference from 100% = +0.03 percentage points). Within ±0.10 percentage points; still cross-check source
+
+ICICI Prudential Large Cap's combined reported rows total 102.00%. The supplied file includes an Infosys futures record weighted 1.96%; excluding that row produces approximately 100.04%, but the row must not be deleted without checking the source disclosure and treatment of derivatives. UTI's supplied export shows a dash for AUM; no AUM has been estimated. Small differences around 100% in other files may reflect rounding but still require AMC cross-checking.
+
+6. Hypothetical stress-test example
+For a holding with weight w% of scheme NAV and an assumed decline d%, estimated direct portfolio impact (percentage points) = w × (−d/100). For example, a holding weighted 8.92% with a hypothetical 20% decline gives 8.92 × (−0.20) = −1.784 percentage points. This arithmetic assumes other holdings are unchanged and does not model hedges, correlations, taxes, costs, rebalancing, or derivative exposures. Sector stress tests are provisional because sector mappings remain working classifications.
+
+7. Business recommendations
+1. Do not assess diversification by holding count alone. Present holding count beside top-five/top-ten concentration and sector exposure.
+2. For portfolio review, highlight schemes where the largest positions or sectors account for a substantial share of scheme NAV; interpret in the context of each fund's stated mandate.
+3. Report total-portfolio exposure and equity-only concentration separately, especially for HDFC Balanced Advantage Fund, which has a hybrid mandate.
+4. Treat UTI Nifty 50 as an index fund and compare its concentration with awareness of its benchmark-driven construction, rather than judging it by the same expectations as an actively managed small-cap fund.
+5. Keep the output decision-support only. Do not infer future losses, declare a scheme safe/unsafe, or give buy/sell advice from these descriptive metrics.
+6. Before final submission, cross-check all five source files against official AMC disclosures, resolve the ICICI derivatives treatment, document unmapped/foreign securities, and validate the sector mapping.
+
+8. Limitations
+- The supplied exports originate from RupeeVest; official AMC disclosure cross-check remains a separate validation step.
+- Sector mapping is a working assumption; not every issuer mapping has been verified from official company-level NSE records.
+- The sample contains only five schemes, which have different mandates and asset mixes.
+- Top-five and top-ten weights are based on reported equity rows as a percentage of scheme NAV; the sum of equity weights is not the same as 100% for hybrid funds.
+- Hypothetical stress tests are direct sensitivity calculations, not forecasts.
+- Small discrepancies may result from rounded disclosed weights; no values have been normalised.
+
+9. Suggested conclusion
+In this five-scheme sample, the number of equity holdings and top-five concentration ranks mostly move in the same direction, but they are not interchangeable. ICICI Prudential Large Cap and Parag Parikh Flexi Cap show small rank differences, illustrating why allocation weights add information beyond holding counts. A useful portfolio review should combine breadth, position concentration, sector exposure and mandate context. The Python tool supports that review but does not determine future performance or investment suitability.

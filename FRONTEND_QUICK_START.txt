@@ -1,0 +1,25 @@
+HIDDEN PORTFOLIO RISK — FRONTEND QUICK START
+
+1. Install Python 3.10+.
+2. Extract this ZIP package to a folder.
+3. Open a terminal in the extracted folder.
+4. Install packages:
+   python -m pip install -r requirements.txt
+5. Start the dashboard:
+   python -m streamlit run app.py
+6. Your browser should open the dashboard. If not, use the local URL printed in the terminal.
+
+WHAT IS INCLUDED
+- app.py: Streamlit frontend connected to the cleaned portfolio CSV and existing analysis outputs.
+- requirements.txt: Python dependencies.
+- clean_data/: standardised portfolio snapshot.
+- database/: SQLite database.
+- outputs/: analysis summaries, scenario tables and preliminary findings.
+- validation/: source log and reconciliation checks.
+- python_code/: existing backend analysis scripts.
+- tests/: calculation tests.
+
+IMPORTANT
+- This is a local dashboard using the project's September 2026 snapshot. It does not fetch live portfolio holdings.
+- Sector mapping and sector stress results are provisional.
+- Verify holdings against official AMC disclosures and reconcile the ICICI Prudential Large Cap reported weight total before final submission.

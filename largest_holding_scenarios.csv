@@ -1,0 +1,11 @@
+scheme_name,scenario_type,security_or_sector,exposure_pct_nav,assumed_decline_pct,estimated_direct_portfolio_impact_pct_points,status
+Bandhan Small Cap Fund,Largest equity holding decline,Sobha Limited,2.3,10,-0.23,Hypothetical direct sensitivity; not a forecast
+Bandhan Small Cap Fund,Largest equity holding decline,Sobha Limited,2.3,20,-0.46,Hypothetical direct sensitivity; not a forecast
+HDFC Balanced Advantage Fund,Largest equity holding decline,ICICI Bank Ltd.,5.06,10,-0.506,Hypothetical direct sensitivity; not a forecast
+HDFC Balanced Advantage Fund,Largest equity holding decline,ICICI Bank Ltd.,5.06,20,-1.012,Hypothetical direct sensitivity; not a forecast
+ICICI Prudential Large Cap Fund,Largest equity holding decline,ICICI Bank Ltd.,8.92,10,-0.892,Hypothetical direct sensitivity; not a forecast
+ICICI Prudential Large Cap Fund,Largest equity holding decline,ICICI Bank Ltd.,8.92,20,-1.784,Hypothetical direct sensitivity; not a forecast
+Parag Parikh Flexi Cap Fund,Largest equity holding decline,HDFC Bank Limited,7.75,10,-0.775,Hypothetical direct sensitivity; not a forecast
+Parag Parikh Flexi Cap Fund,Largest equity holding decline,HDFC Bank Limited,7.75,20,-1.55,Hypothetical direct sensitivity; not a forecast
+UTI Nifty 50 Index Fund,Largest equity holding decline,EQ - HDFC BANK LIMITED,10.38,10,-1.038,Hypothetical direct sensitivity; not a forecast
+UTI Nifty 50 Index Fund,Largest equity holding decline,EQ - HDFC BANK LIMITED,10.38,20,-2.076,Hypothetical direct sensitivity; not a forecast

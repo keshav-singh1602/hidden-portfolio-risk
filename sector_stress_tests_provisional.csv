@@ -1,0 +1,11 @@
+scheme_name,sector,sector_exposure_pct_nav,assumed_sector_decline_pct,estimated_direct_portfolio_impact_pct_points,status
+Bandhan Small Cap Fund,Financial Services,9.94,10,-0.994,PROVISIONAL — depends on sector mapping; hypothetical direct sensitivity only
+Bandhan Small Cap Fund,Financial Services,9.94,20,-1.988,PROVISIONAL — depends on sector mapping; hypothetical direct sensitivity only
+HDFC Balanced Advantage Fund,Banks,18.75,10,-1.875,PROVISIONAL — depends on sector mapping; hypothetical direct sensitivity only
+HDFC Balanced Advantage Fund,Banks,18.75,20,-3.75,PROVISIONAL — depends on sector mapping; hypothetical direct sensitivity only
+ICICI Prudential Large Cap Fund,Banks,25.34,10,-2.534,PROVISIONAL — depends on sector mapping; hypothetical direct sensitivity only
+ICICI Prudential Large Cap Fund,Banks,25.34,20,-5.068,PROVISIONAL — depends on sector mapping; hypothetical direct sensitivity only
+Parag Parikh Flexi Cap Fund,Banks,20.48,10,-2.048,PROVISIONAL — depends on sector mapping; hypothetical direct sensitivity only
+Parag Parikh Flexi Cap Fund,Banks,20.48,20,-4.096,PROVISIONAL — depends on sector mapping; hypothetical direct sensitivity only
+UTI Nifty 50 Index Fund,Banks,29.520000000000003,10,-2.952,PROVISIONAL — depends on sector mapping; hypothetical direct sensitivity only
+UTI Nifty 50 Index Fund,Banks,29.520000000000003,20,-5.904,PROVISIONAL — depends on sector mapping; hypothetical direct sensitivity only

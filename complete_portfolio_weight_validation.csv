@@ -1,0 +1,6 @@
+scheme_name,records,all_reported_weight_sum_pct,difference_from_100_pct_points,validation_status
+Bandhan Small Cap Fund,267,100.01,0.01,Within ±0.10 percentage points; still cross-check source
+HDFC Balanced Advantage Fund,327,100.07,0.07,Within ±0.10 percentage points; still cross-check source
+ICICI Prudential Large Cap Fund,95,102.0,2.0,REVIEW: outside ±0.10 percentage points; do not normalise
+Parag Parikh Flexi Cap Fund,102,100.02,0.02,Within ±0.10 percentage points; still cross-check source
+UTI Nifty 50 Index Fund,52,100.03,0.03,Within ±0.10 percentage points; still cross-check source

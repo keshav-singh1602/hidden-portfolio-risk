@@ -1,0 +1,6 @@
+scheme_name,equity_record_count,unique_equity_security_count,equity_weight_sum_pct_nav,top_5_concentration_pct_nav,top_10_concentration_pct_nav,largest_equity_holding,largest_equity_holding_weight_pct_nav,holding_count_rank,top5_concentration_rank,diversification_gap,gap_interpretation,method_note
+Bandhan Small Cap Fund,261,261,86.37,9.89,17.35,Sobha Limited,2.3,1,1,0,Holding-count and concentration ranks align,Relative rank indicator within five selected schemes; not a standalone risk measure
+HDFC Balanced Advantage Fund,169,169,73.43,19.35,29.97,ICICI Bank Ltd.,5.06,2,2,0,Holding-count and concentration ranks align,Relative rank indicator within five selected schemes; not a standalone risk measure
+ICICI Prudential Large Cap Fund,83,83,96.22,31.17,45.68,ICICI Bank Ltd.,8.92,3,4,1,Concentration rank worse than holding-count rank,Relative rank indicator within five selected schemes; not a standalone risk measure
+Parag Parikh Flexi Cap Fund,60,60,85.4,29.47,51.01,HDFC Bank Limited,7.75,4,3,-1,Concentration rank better than holding-count rank,Relative rank indicator within five selected schemes; not a standalone risk measure
+UTI Nifty 50 Index Fund,50,50,100.05,36.34,52.31,EQ - HDFC BANK LIMITED,10.38,5,5,0,Holding-count and concentration ranks align,Relative rank indicator within five selected schemes; not a standalone risk measure

@@ -1,0 +1,15 @@
+SECTOR VERIFICATION STATUS — IMPORTANT
+
+The official NSE Indices Industry Classification page describes the taxonomy (four levels) and its methodology. It says audited consolidated annual financials are the primary classification evidence. The accessible page does not itself provide a complete issuer-by-issuer sector table that can be matched automatically to all 572 securities in this package.
+
+Therefore, no company-level mapping is marked "officially verified" in this package. Existing name-based assignments are retained only as provisional working hypotheses. They must not be described as verified NSE classifications. Foreign issuers are outside the NSE-listed-company classification and need a separately documented classification source or an explicit "Foreign / not NSE-classified" category.
+
+Official framework:
+https://www.nseindia.com/static/products-services/industry-classification
+NSE Indices resource page:
+https://www.niftyindices.com/resources/industry-classification
+
+NSE describes a four-tier structure: Macro-Economic Sector, Sector, Industry and Basic Industry; classification is based primarily on revenue activity and audited consolidated annual financials. The sector mapping can be finalised only after obtaining/creating an issuer-level source register and documenting each match.
+
+Data source caution:
+The portfolio files supplied by the group were downloaded from RupeeVest and are not themselves an official AMC verification. They are the working dataset. AMC original monthly disclosure files should be cross-checked before final report submission.
